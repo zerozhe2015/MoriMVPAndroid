@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="index_finclass_item_image_width">115dp</dimen>
+    <dimen name="index_finclass_item_image_height">81dp</dimen>
+    <dimen name="index_finclass_item_image_height_all">133dp</dimen>
+
+
+    <!-- 顶部topbar高度 -->
+    <!--<dimen name="top_bar_height">52dp</dimen>-->
+    <dimen name="top_bar_height">48dp</dimen>
+    <!-- 主页底部 tabbar高度 -->
+    <!--<dimen name="home_bottom_tabbar_height">56dp</dimen>-->
+    <dimen name="home_bottom_tabbar_height">60dp</dimen>
+
+
+    <dimen name="common_form_row_height">57dp</dimen>
+
+    <dimen name="common_btn_long_round_width">340dp</dimen>
+    <dimen name="common_btn_long_round_radius">25dp</dimen>
+    <dimen name="common_btn_long_height">50dp</dimen>
+    <dimen name="common_btn_long_round_width1">230dp</dimen>
+    <dimen name="common_btn_long_height1">46dp</dimen>
+
+    <dimen name="common_dialog_btn_height">55dp</dimen>
+    <dimen name="common_dialog_width">340dp</dimen>
+
+
+    <!-- 以2.3为基数 -->
+    <!-- 大致1.15倍-->
+    <dimen name="dis1">2.3dp</dimen>
+    <dimen name="dis2">4.6dp</dimen>
+    <dimen name="dis3">6.9dp</dimen>
+    <dimen name="dis4">9.2dp</dimen>
+    <dimen name="dis5">11.5dp</dimen>
+    <dimen name="dis6">13.8dp</dimen>
+    <dimen name="dis7">16.1dp</dimen>
+    <dimen name="dis8">18.4dp</dimen>
+    <dimen name="dis9">20.7dp</dimen>
+    <dimen name="dis10">23dp</dimen>
+    <dimen name="dis11">25.3dp</dimen>
+    <dimen name="dis12">27.6dp</dimen>
+    <dimen name="dis13">29.9dp</dimen>
+    <dimen name="dis14">32.2dp</dimen>
+    <dimen name="dis15">34.5dp</dimen>
+    <dimen name="dis16">36.8dp</dimen>
+    <dimen name="dis17">39.1dp</dimen>
+    <dimen name="dis18">41.4dp</dimen>
+    <dimen name="dis19">43.7dp</dimen>
+    <dimen name="dis20">46dp</dimen>
+    <dimen name="dis22.5">51.8dp</dimen>
+    <dimen name="dis25">57.5dp</dimen>
+    <dimen name="dis30">69dp</dimen>
+    <dimen name="dis35">80.5dp</dimen>
+    <dimen name="dis40">92dp</dimen>
+    <dimen name="dis45">103.5dp</dimen>
+    <dimen name="dis50">115dp</dimen>
+    <dimen name="dis55">126.5dp</dimen>
+    <dimen name="dis60">138dp</dimen>
+    <dimen name="dis70">161dp</dimen>
+    <dimen name="dis75">172.5dp</dimen>
+    <dimen name="dis100">230dp</dimen>
+    <dimen name="dis165">380dp</dimen>
+    <dimen name="dis167_5">385dp</dimen>
+    <dimen name="dis52_5">121dp</dimen>
+    <dimen name="dis62">144dp</dimen>
+    <dimen name="dis150">345dp</dimen>
+    <dimen name="dis69">159dp</dimen>
+    <dimen name="dis22">51dp</dimen>
+    <dimen name="dis53">122dp</dimen>
+    <dimen name="dis87_5">201dp</dimen>
+    <dimen name="dis68_5">158dp</dimen>
+    <dimen name="dis225">518dp</dimen>
+
+    <dimen name="dis_1">-2.3dp</dimen>
+    <dimen name="dis_2">-4.6dp</dimen>
+    <dimen name="dis_3">-6.9dp</dimen>
+    <dimen name="dis_4">-9.2dp</dimen>
+    <dimen name="dis_5">-11.5dp</dimen>
+    <dimen name="dis_6">-13.8dp</dimen>
+    <dimen name="dis_8">-18.4dp</dimen>
+    <dimen name="dis_10">-23dp</dimen>
+    <dimen name="dis_20">-46dp</dimen>
+    <dimen name="dis_200">-460dp</dimen>
+    <dimen name="dis_70">-161dp</dimen>
+</resources>

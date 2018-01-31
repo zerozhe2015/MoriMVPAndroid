@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="windowBackgroundColor">#eaeaea</color>
+
+
+    <color name="colorPrimary">@color/mainBlue_1A347F</color>
+    <color name="colorPrimaryDark">@color/mainBlue_1A347F</color>
+    <color name="colorAccent">@color/mainBlue_1A347F</color>
+
+    <!--<color name="colorControlHighlight">@color/ripple_material_light</color>-->
+    <color name="colorControlHighlight">@color/ripple_material_light</color>
+
+
+    <color name="textColor_333333">#333333</color>
+    <color name="textColor_555555">#555555</color>
+    <color name="textColor_898989">#898989</color>
+    <color name="textColor_D9D9D9">#d9d9d9</color>
+    <color name="textColor_6c6c6c">#6c6c6c</color>
+
+    <!--<color name="textColorHint">#d9d9d9</color>-->
+    <color name="textColorHint">#d9d9d9</color>
+
+    <color name="textColorHighlight">@color/mainBlue_1A347F</color>
+    <color name="textColorHighlightDark">@color/common_blue_dark_839bd1</color>
+    <color name="textColorLink">#5b92f2</color>
+
+
+    <!--<color name="textColorRed">#FF5F45</color>-->
+
+
+    <color name="dividerLine1Color">#eaeaea</color>
+
+    <color name="buttonDisableColor">#a9a9a9</color>
+    <color name="blueButtonPressColor">@color/common_blue_dark_839bd1</color>
+    <color name="RedButtonPressColor">@color/common_red_dark_f25560</color>
+
+
+    <!-- 其他颜色 -->
+    <color name="green">#03AC95</color>
+    <color name="white">#FFFFFF</color>
+    <!--<color name="white">#FCFCFC</color>-->
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="mainRed_1A347F">#dd3409</color>
+    <color name="mainBlue_1A347F">#f9f9f9</color>
+    <color name="red_EC5657">#EC5657</color>
+    <color name="red_d15050">#d15050</color>
+
+    <color name="purple_8E91BE">#8e91be</color>
+    <color name="skyBlue_6CCDF7">#6ccdf7</color>
+    <color name="orange_FE830C">#FE830C</color>
+    <color name="green_3EAA86">#3EAA86</color>
+
+
+    <color name="common_blue_dark_839bd1">#839bd1</color>
+    <color name="common_red_dark_f25560">#f25560</color>
+
+    <color name="textTitleForNews">#231f20</color>
+    <color name="textForNews">#777777</color>
+    <color name="textTimeForNews">#bdbdbd</color>
+
+
+    <color name="item_red_C03636">#C03636</color>
+    <color name="item_blue_C03636">#63a0a7</color>
+    <color name="item_blue_304553">#304553</color>
+    <color name="item_grey_6e7074">#6e7074</color>
+
+    <color name="item_textcolor_222222">#222222</color>
+</resources>

@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+// for retrolambda
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    //for retrolumbda
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+        disable 'InvalidPackage'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+    }
+
+    sourceSets.main {
+        jni.srcDirs = []
+    }
+
+}
+
+dependencies {
+    compile project(':base')
+
+    // Dagger dependencies
+    annotationProcessor "com.google.dagger:dagger-compiler:$rootProject.daggerVersion"
+
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.1.0'
+    
+    testCompile 'junit:junit:4.12'
+}

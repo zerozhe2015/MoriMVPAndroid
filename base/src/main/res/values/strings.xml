@@ -1,0 +1,15 @@
+<resources>
+    <!-- 手势密码提示 -->
+    <string name="draw_lock_pattern">请绘制手势密码</string>  <!--绘制解锁图案-->
+    <string name="draw_lock_pattern_again">请再次绘制手势密码</string><!--再次绘制解锁图案-->
+    <string name="lock_pattern_not_same">与上次输入不一致，请重新绘制</string>
+    <string name="input_lock_pattern">请输入手势密码登录</string><!--输入解锁图案-->
+
+
+    <string name="gesture_lock_suggest">为了进一步提高您的账户安全性，我们为您提供了手势密码功能，建议您马上开启</string>
+    <string name="gesture_lock_skip_tip">手势密码可以保护您的账户安全，确定跳过？</string>
+    <string name="gesture_lock_guide">如果需要打开，请到个人中心-安全中心-开启手势密码</string>
+
+    <item name="aaa" type="id"/>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/dialogButtonBar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/dialogButtonBarHorizontalLine"
+        style="@style/horizontal_divider_line1"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dialog_btn_height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:text="取消"
+            android:textColor="@color/textColor_898989"
+            android:textSize="17sp"/>
+
+        <View
+            android:id="@+id/dialogButtonBarVerticalLine"
+            style="@style/vertical_divider_line1"
+            />
+
+        <Button
+            android:id="@+id/okBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:text="确定"
+            android:textColor="@color/mainBlue_1A347F"
+            android:textSize="17sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

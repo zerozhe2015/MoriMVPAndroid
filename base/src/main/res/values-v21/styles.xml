@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+    <style name="AppTheme.FitsSystemWindows">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

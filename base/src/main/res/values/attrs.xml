@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PageIndicatorView">
+        <attr name="viewColor" format="color"/>
+        <attr name="viewRound" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="MaterialCircleView">
+        <attr name="bGradient" format="boolean"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="radius1" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomBankCard">
+    </declare-styleable>
+
+
+
+    <declare-styleable name="LockPatternView">
+
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="lpv_aspect" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="TimeLineMarker">
+        <attr name="markerSize" format="dimension" />
+        <attr name="marker" format="color|reference" />
+        <attr name="beginLine" format="color|reference" />
+        <attr name="endLine" format="color|reference" />
+        <attr name="lineSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- rollview ViewFlow  -->
+
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color"/>
+        <attr name="inactiveColor" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="centered1" format="boolean"/>
+        <attr name="fadeOut" format="integer"/>
+        <attr name="inactiveType">
+            <flag name="stroke" value="0"/>
+            <flag name="fill" value="1"/>
+        </attr>
+        <attr name="activeType">
+            <flag name="stroke" value="0"/>
+            <flag name="fill" value="1"/>
+        </attr>
+        <attr name="circleSeparation" format="dimension"/>
+        <attr name="activeRadius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer"/>
+    </declare-styleable>
+
+    <!--ViewFlow rollview  end  -->
+
+
+    <!--rollViewPager相关属性-->
+    <declare-styleable name="RollViewPager">
+        <attr name="rollviewpager_hint_mode">
+            <enum name="point" value="0"/>
+            <enum name="number" value="1"/>
+        </attr>
+        <attr name="rollviewpager_hint_gravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="rollviewpager_play_delay" format="integer"/>
+        <attr name="rollviewpager_hint_color" format="color"/>
+        <attr name="rollviewpager_hint_alpha" format="integer"/>
+    </declare-styleable>
+
+
+    <!--NoticeView-->
+    <declare-styleable name="RatioImageView">
+        <attr name="ratioImageView_measureMode">
+            <enum name="by_width" value="0"/>
+            <enum name="by_height" value="1"/>
+        </attr>
+        <attr name="ratioImageView_ratio" format="float|fraction|"/>
+    </declare-styleable>
+
+    <!--NoticeView-->
+    <declare-styleable name="NoticeView">
+        <attr name="animationDuration" format="integer"/>
+        <attr name="rollInterval" format="integer"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="BannerView">
+        <attr name="ratio" format="float|fraction"/>
+        <attr name="normalDotColor" format="color|reference"/>
+        <attr name="focusDotColor" format="color|reference"/>
+        <attr name="dotRadius" format="dimension|reference"/>
+        <attr name="dotMargin" format="dimension|reference"/>
+    </declare-styleable>
+    <declare-styleable name="RoundTextView">
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="topLeftCornerRadius" format="dimension"/>
+        <attr name="topRightCornerRadius" format="dimension"/>
+        <attr name="bottomLeftCornerRadius" format="dimension"/>
+        <attr name="bottomRightCornerRadius" format="dimension"/>
+        <attr name="solidColor" format="color"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="AutoFullRoundTextView">
+        <attr name="fSolidColor" format="color"/>
+        <attr name="fStrokeColor" format="color"/>
+        <attr name="fStrokeWidth" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

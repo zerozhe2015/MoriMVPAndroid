@@ -1,0 +1,105 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/dis10</dimen>
+    <dimen name="activity_vertical_margin">@dimen/dis8</dimen>
+
+    <dimen name="activity_horizontal_divider_margin">@dimen/dis5</dimen>
+
+    <!-- 状态栏高度-->
+    <dimen name="statusBarHeight">24dp</dimen>
+    <!--<dimen name="statusBarHeight">@android:dimen/status_bar_height</dimen>-->
+
+    <!--  fitSystemWindow效果的MarginTop  4.4以上为状态栏高度，4.4以下是0-->
+    <dimen name="fitSystemWindowEffectMarginTop">0dp</dimen>
+
+    <!-- 在density大于3的情况为2px，小于等于3为1px -->
+    <dimen name="line_width1">0.33dp</dimen>
+    <dimen name="line_width2">0.66dp</dimen>
+
+    <!-- 顶部topbar高度 -->
+    <!--<dimen name="top_bar_height">48dp</dimen>-->
+    <dimen name="top_bar_height">40dp</dimen>
+
+    <!-- 主页底部 tabbar高度 -->
+    <!--<dimen name="home_bottom_tabbar_height">50dp</dimen>-->
+    <dimen name="home_bottom_tabbar_height">54dp</dimen>
+
+
+    <!-- 页面标题文字大小-->
+    <dimen name="topTitleTextSize">18sp</dimen>
+
+
+    <dimen name="common_form_row_height">50dp</dimen>
+
+    <!--Button -->
+    <!--<dimen name="common_btn_height">40dp</dimen>-->
+    <!--<dimen name="common_btn_width">130dp</dimen>-->
+    <!--<dimen name="common_btn_small_height">30dp</dimen>-->
+    <!--<dimen name="common_btn_small_width">62.67dp</dimen>-->
+
+    <dimen name="common_btn_long_round_width">300dp</dimen>
+    <dimen name="common_btn_long_round_radius">22.5dp</dimen>
+    <dimen name="common_btn_long_height">45dp</dimen>
+    <dimen name="common_btn_long_round_width1">200dp</dimen>
+    <dimen name="common_btn_long_height1">40dp</dimen>
+
+    <dimen name="common_dialog_btn_height">54dp</dimen>
+    <dimen name="common_dialog_width">300dp</dimen>
+
+    <dimen name="dis1">2dp</dimen>
+    <dimen name="dis2">4dp</dimen>
+    <dimen name="dis3">6dp</dimen>
+    <dimen name="dis4">8dp</dimen>
+    <dimen name="dis5">10dp</dimen>
+    <dimen name="dis6">12dp</dimen>
+    <dimen name="dis7">14dp</dimen>
+    <dimen name="dis8">16dp</dimen>
+    <dimen name="dis9">18dp</dimen>
+    <dimen name="dis10">20dp</dimen>
+    <dimen name="dis11">22dp</dimen>
+    <dimen name="dis12">24dp</dimen>
+    <dimen name="dis13">26dp</dimen>
+    <dimen name="dis14">28dp</dimen>
+    <dimen name="dis15">30dp</dimen>
+    <dimen name="dis16">32dp</dimen>
+    <dimen name="dis17">34dp</dimen>
+    <dimen name="dis18">36dp</dimen>
+    <dimen name="dis19">38dp</dimen>
+    <dimen name="dis20">40dp</dimen>
+    <dimen name="dis22.5">45dp</dimen>
+    <dimen name="dis25">50dp</dimen>
+    <dimen name="dis30">60dp</dimen>
+    <dimen name="dis35">70dp</dimen>
+    <dimen name="dis40">80dp</dimen>
+    <dimen name="dis45">90dp</dimen>
+    <dimen name="dis50">100dp</dimen>
+    <dimen name="dis55">110dp</dimen>
+    <dimen name="dis60">120dp</dimen>
+    <dimen name="dis62">125dp</dimen>
+    <dimen name="dis70">140dp</dimen>
+    <dimen name="dis75">150dp</dimen>
+    <dimen name="dis100">200dp</dimen>
+    <dimen name="dis165">330dp</dimen>
+    <dimen name="dis167_5">335dp</dimen>
+    <dimen name="dis52_5">105dp</dimen>
+    <dimen name="dis150">300dp</dimen>
+    <dimen name="dis69">138dp</dimen>
+    <dimen name="dis22">44dp</dimen>
+    <dimen name="dis53">106dp</dimen>
+    <dimen name="dis87_5">175dp</dimen>
+    <dimen name="dis68_5">137dp</dimen>
+    <dimen name="dis225">450dp</dimen>
+
+    <dimen name="dis_1">-2dp</dimen>
+    <dimen name="dis_2">-4dp</dimen>
+    <dimen name="dis_3">-6dp</dimen>
+    <dimen name="dis_4">-8dp</dimen>
+    <dimen name="dis_5">-10dp</dimen>
+    <dimen name="dis_6">-12dp</dimen>
+    <dimen name="dis_8">-16dp</dimen>
+    <dimen name="dis_10">-20dp</dimen>
+    <dimen name="dis_20">-40dp</dimen>
+    <dimen name="dis_200">-400dp</dimen>
+    <dimen name="dis_70">-140dp</dimen>
+
+</resources>
